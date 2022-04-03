@@ -1,0 +1,21 @@
+.icons{
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons span{
+    align-items: center;
+}
+.icons i{
+    margin-left: 20px;
+}
+.logo{
+    height: 45px;
+    margin-left: 20px;
+}

@@ -1,0 +1,29 @@
+.carousel {
+  margin: 20px 10px 0;
+  border: solid;
+  border-color: rgb(160, 161, 161);
+}
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+  margin-top: 5px;
+}
+.carousel-indicators .active {
+  background-color: rgba(14, 14, 15);
+}
+.carousel-indicators .crsl {
+  background-color: rgb(10, 9, 9, 0.8);
+  margin-bottom: 20px;
+}
+.carousel-item{
+  width: 50%;
+  height: 100;
+}
+.carousel-item img {
+  height: 250px;
+}
+.carousel-inner {
+  height: 250px;
+}
