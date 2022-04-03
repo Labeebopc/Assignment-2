@@ -1,7 +1,14 @@
 import React from 'react'
+import Buttons from '../../Components/Buttons/Buttons'
 import '../Payments/Payments.css'
 
 function Payments() {
+
+  let btnName={
+    btn1 : "Start a Chat",
+    btn2 : "Resend Invoice"
+
+  }
   return (
     <div className='payment-section'>
        <div className="head">
@@ -19,11 +26,10 @@ function Payments() {
 
         </div>
       </div>
-      
-      
 
-      
 
+
+ <Buttons {...btnName}/>
     </div>
   )
 }

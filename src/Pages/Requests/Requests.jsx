@@ -1,7 +1,14 @@
 import React from 'react'
+import Buttons from '../../Components/Buttons/Buttons'
 import '../Requests/Requests.css'
 
 function Requests() {
+
+  let btnName={
+    btn1 : "Reschedule",
+    btn2 : "Accept Request"
+
+  }
   return (
     <div className='request-section'>
       <div className="head">
@@ -19,6 +26,8 @@ function Requests() {
 
         </div>
       </div>
+
+      <Buttons {...btnName}/>
 
     </div>
   )

@@ -1,7 +1,15 @@
 import React from 'react'
+import Buttons from '../../Components/Buttons/Buttons'
 import '../Services/Services.css'
 
 function Services() {
+  let btnName={
+    btn1 : "Check In",
+    btn2 : "Generate Invoice"
+
+  }
+
+
   return (
     <div className='services-section'>
        <div className="head">
@@ -20,6 +28,11 @@ function Services() {
         </div>
       </div>
         
+
+
+
+
+        <Buttons {...btnName}/>
   
 
     </div>
